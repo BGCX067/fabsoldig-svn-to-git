@@ -1,0 +1,87 @@
+#video_bbva div:first-child{
+	max-width: 551px !important;
+}
+
+#video_bbva{
+	
+	width: 56.333333%;
+}
+
+
+
+#bbva_content p:nth-child(2){
+	font-family: drawing;
+	font-size: 1.5em;
+	color: #086c68;
+}
+
+#row_bbva{
+	padding-top: 3%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#img_raya_contenedor{
+	z-index: 10;
+}
+
+#row_acumulo{
+	padding-top: 5%;
+	margin-left: 9%;
+	margin-right: 9%;
+	margin-bottom: 2.5%;
+	background-color: white;
+	margin-top: -2.7%;
+}
+
+.title_acumulo{
+	font-size: 25px;
+	font-family: ArvoBold;
+	color: #009fe8;
+}
+
+.textacumulo{
+	font-family: Arvo;
+	color: #484848;
+}
+
+.sub_title_acumulo{
+	font-family: Drawing;
+	font-size: 20px;
+	color: #086c68;
+	letter-spacing: 0.1em;
+	margin-bottom: 0.3em;
+}
+
+.sub_title_acumulo1 {
+	font-family: Arvo;
+	margin-bottom: 0.3em;
+	padding-top: 5%;
+	text-align: left;
+}
+
+
+#acumulo{
+	width: 45%;
+	border-right: 1px solid #0099e7;
+	padding-right: 61px;
+	padding-left: 61px;
+}
+
+#bbva_content{
+	text-align: center;
+	padding-top: 4%;
+	font-family: Arvo;
+	padding-right: 0%;
+	color: #204377;;
+}
+#canjeo{
+	width: 55%;
+	padding-right: 61px;
+	padding-left: 61px;
+}
+
+#btn_solicita{
+	padding-bottom: 0;
+	margin-bottom: 0px;
+}

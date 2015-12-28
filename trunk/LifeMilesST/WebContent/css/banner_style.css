@@ -1,0 +1,231 @@
+body.home div#banner_inicio{
+	margin-top: 30px;
+}
+
+body.home div#banner_movil{
+	display: none;
+}
+
+body.home div#banner_inicio > div{
+	padding-right: 200px !important;
+}
+
+body.home div#banner_inicio div.wonderpluginslider{
+}
+
+body.home div#banner_inicio div.amazingslider-wrapper-1{
+}
+
+body.home div#banner_inicio div.amazingslider-wrapper-1 div.amazingslider-slider-1{
+	background-image: url("../../../uploads/2015/01/banner.png") !important;
+	background-repeat: no-repeat;
+	padding-top: 6px !important;
+	padding-left: 10px !important;
+	padding-right: 0px !important;
+	padding-bottom: 3px !important;
+	background-size: 102% 101% !important;
+
+}
+body.home div#banner_inicio div.amazingslider-wrapper-1 div.amazingslider-nav-1{
+	height: 102% !important;
+	width: 32% !important;
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1{
+
+	height: 100% !important;
+	width: auto !important;
+
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div{
+	
+	width: auto !important;
+	height: 32% !important;
+	background-image: url("../../../uploads/2015/01/estampa.png") !important;
+	background-color: transparent !important;
+	background-size: 100% 100% !important;
+	opacity: 1 !important;
+	padding:11px !important;
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div.amazingslider-nav-featuredarrow-1{
+
+	display:none !important;
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-image-1{
+	width:86% !important;
+	height: 80% !important;
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div.amazingslider-bullet-1-0 div:nth-child(2){
+	width: 90% !important;
+	height: 90% !important;
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1{
+	margin-top: 1px !important;
+	width: 86% !important;
+	padding: 20% 0 !important;
+	height: auto !important;
+}
+
+body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1 >div.amazingslider-nav-thumbnail-tite-1{
+	color:white !important;
+	padding: 5% 0 !important;
+	width: 108% !important;
+	
+}
+body.home div#banner_inicio div.amazingslider-wrapper-1 div.amazingslider-slider-1 div.amazingslider-box-1{
+
+	border-style: inherit !important;
+}
+body.home div#banner_movil div.amazingslider-wrapper-2 div.amazingslider-slider-2 div.amazingslider-box-2{
+
+	border-style: inherit !important;
+}
+body.home div#banner_inicio div.amazingslider-wrapper-1 div.amazingslider-slider-1 div.amazingslider-box-1 > div > div.amazingslider-img-box-1 {
+	height: 97% !important;
+}
+
+@media only screen and (min-width: 476px) and (max-width: 550px) {
+	body.home div#banner_inicio > div{
+		padding-left: 35px !important;
+		padding-right: 143px !important;
+	}
+
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div{	
+		padding: 6px !important;
+		margin-bottom: 8px !important;
+	}
+
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1{
+		height: 98% !important;
+	}
+	
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-image-1 > img{
+		margin-top: -6px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1{
+		margin-top: 1px !important;
+		width: 90% !important;
+	}
+
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1 > div.amazingslider-nav-thumbnail-tite-1{
+		font-size: 60% !important;
+	}
+
+}
+
+@media only screen and (min-width: 604px) and (max-width: 735px) {
+	body.home div#banner_inicio > div{
+		padding-left: 35px !important;
+		padding-right: 183px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1{
+		margin-top: 1px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div{
+		padding:9px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-image-1 > img{
+		margin-top: -7px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1 > div.amazingslider-nav-thumbnail-tite-1{
+		font-size: 67% !important;
+	}
+}
+
+@media only screen and (min-width: 736px) and (max-width: 876px) {
+	body.home div#banner_inicio > div{
+		padding-left: 35px !important;
+		padding-right: 213px !important;
+	}
+}
+@media only screen and (min-width: 551px) and (max-width: 603px) {
+	body.home div#banner_inicio > div{
+		padding-left: 35px !important;
+		padding-right: 173px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div{	
+		padding: 7px !important;
+		margin-bottom: 8px !important;
+	}
+
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1{
+		height: 98% !important;
+	}
+
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-image-1 > img{
+		margin-top: -6px !important;
+	}
+	body.home div#banner_inicio  div.amazingslider-wrapper-1 div.amazingslider-nav-1 div.amazingslider-bullet-wrapper-1 > div > div.amazingslider-bullet-text-1 > div.amazingslider-nav-thumbnail-tite-1{
+		font-size: 65% !important;
+	}
+
+}
+
+@media only screen and (max-width: 476px) {
+	body.home div#banner_inicio{
+		display: none;
+	}
+	body.home div#banner_movil{
+		display: block !important;
+	}
+	body.home div#banner_movil  div.amazingslider-wrapper-2 div.amazingslider-nav-2 div.amazingslider-bullet-wrapper-2 > div{
+		background-size: 100% 100% !important;
+		background-image: url("../../../uploads/2015/01/estampa.png") !important;
+		padding: 8px !important;
+		width: 33% !important;
+		background-repeat: no-repeat !important;
+		margin-right: 0px !important;
+		margin-left: 0px !important;
+	}
+
+	body.home div#banner_movil  div.amazingslider-wrapper-2 div.amazingslider-nav-2 div.amazingslider-bullet-wrapper-2 > div.amazingslider-nav-featuredarrow-2{
+		background-color: transparent !important;
+		background-image: none !important;
+	}
+	body.home div#banner_movil  div.amazingslider-wrapper-2 div.amazingslider-nav-2 div.amazingslider-nav-container-2{
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+	}
+	.martop50 {
+		margin-top: 121px !important;
+	}
+	body.home div#banner_movil  div.amazingslider-wrapper-2 div.amazingslider-nav-2 div.amazingslider-bullet-wrapper-2 > div > div.amazingslider-bullet-image-2 > img{
+		width:91% !important;
+	}
+	body.home div#banner_movil  div.amazingslider-wrapper-2 div.amazingslider-nav-2 div.amazingslider-bullet-wrapper-2 > div > div.amazingslider-bullet-text-2{
+		margin-top: 1px !important;
+		width: 86% !important;
+		padding: 20% 0 !important;
+		height: auto !important;
+		font-size: 65% !important;
+	}
+	body.home div#banner_movil  div.amazingslider-wrapper-2 div.amazingslider-nav-2 div.amazingslider-bullet-wrapper-2 > div > div.amazingslider-bullet-text-2 >div.amazingslider-nav-thumbnail-tite-2{
+		color:white !important;
+		padding: 5% 0 !important;
+		width: 108% !important;
+		
+	}
+	body.home div#banner_movil > div{
+		padding-left: 6px !important;
+	}
+	
+	body.home div#banner_movil div.amazingslider-wrapper-2 div.amazingslider-slider-2{
+		background-image: url("../../../uploads/2015/01/banner.png") !important;
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		padding-top: 3px !important;
+		padding-left: 9px !important;
+		padding-right: 0px !important;
+		padding-bottom: 3px !important;
+		background-size: 101% 102% !important;
+
+
+
+	}
+}
+

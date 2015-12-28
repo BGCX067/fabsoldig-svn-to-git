@@ -1,0 +1,7 @@
+/* FONT DRAWING */
+@font-face {
+	font-family: Drawing;  
+	src:  local('Drawing with markers'), 
+		url("../fonts/drawing_with_markers/Drawing with markers.ttf") format('truetype');  
+	font-weight: normal;  
+}

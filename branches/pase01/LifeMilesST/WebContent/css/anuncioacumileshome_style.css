@@ -1,0 +1,79 @@
+
+
+.lineredblue{
+	background-image: url('../../../../wp-content/uploads/2015/01/linea_rojoazul.png');
+	background-repeat: repeat-x;
+	height: 25px;
+}
+
+.pideloaqui{
+	max-width: none;
+	width: 204px;
+	height: 90px;
+}
+
+.martop50{
+	margin-top: 50px;
+}
+
+.fixinterl{
+	margin-bottom: 1rem;
+	font-family: Drawing;
+	font-size: 20px;
+	color: #086c68;
+}
+
+div.fixinterlp > p{
+	font-family: Arvo;
+	font-size: 14px;
+	color: #0099e7;
+}
+
+div.fixinterlp > p > strong{
+	font-family: ArvoBold;
+	font-size: 14px;
+	color: #0099e7;
+}
+
+
+.positionboxacum{
+	background-color: white;
+	margin-bottom: 20px;
+	margin-left: 12%;
+}
+
+
+@media only screen and (min-width: 299px) and (max-width: 768px) {
+
+	.positionboxacum{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.fixinterlp > p{
+		margin-bottom: 0rem;
+		text-align: center;
+	}
+
+}
+
+@media  only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.positionboxacum{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.fixinterlp > p{
+		margin-bottom: 0rem;
+		text-align: center;
+	}
+}
+
+/*
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+
+}
+*/

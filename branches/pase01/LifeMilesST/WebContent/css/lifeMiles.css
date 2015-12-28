@@ -1,0 +1,301 @@
+/*Archivo que contiene los estilos necesarios para los encabezados, titulos y todo elemento general dentro de la aplicacion*/
+
+@font-face {
+    font-family: ArvoBold;
+    src: url(fonts/arvo-bold.woff);
+    font-weight: bold;
+}
+
+
+.cabeceraSeparadora{
+	height: 1px;
+	background-color: white;	
+	position:relative;
+	display:block;
+}
+
+
+.cabeceraCliente{
+    font-size:13.0pt;
+    font-weight:bold;
+    font-style:normal;
+    font-family:"Arial Narrow", sans-serif;
+    mso-number-format:General;
+    vertical-align:bottom;
+    /*border-top:1.0pt solid windowtext;
+    border-right:.5pt solid windowtext;
+    border-bottom:.5pt solid windowtext;
+    border-left:.5pt solid windowtext;*/
+    background:#517AA6;
+    text-align: right;
+    border-color:#517AA6; 
+	height:25px;
+	color: white;
+	position:relative;
+	display:block;
+}
+
+.cabeceraCliente2{
+    font-size:20.0pt;
+    font-weight:bold;
+    font-style:normal;
+    font-family:"Arial Narrow", sans-serif;
+    mso-number-format:General;
+    vertical-align:bottom;
+    text-align: center;
+    border-color:#517AA6; 
+	color: #0030A2;
+	position:relative;
+	display:block;
+}
+
+.cabeceraTipoReporte{
+    font-size:20.0pt;
+    font-weight:bold;
+    font-style:normal;
+    font-family:"Arial Narrow", sans-serif;
+    mso-number-format:General;
+    vertical-align:bottom;
+    text-align: center;
+    border-color:#517AA6; 
+	color: #0030A2;
+	position:relative;
+}
+
+
+.cabeceraAplicacion{
+	font-size:11.0pt;
+    font-weight:bold;
+    font-style:normal;
+    font-family:"Arial Narrow", sans-serif;
+    mso-number-format:General;
+    vertical-align:bottom;
+    /*border-top:1.0pt solid windowtext;
+    border-right:.5pt solid windowtext;
+    border-bottom:.5pt solid windowtext;
+    border-left:.5pt solid windowtext;*/
+    background:white;
+    text-align: right; 
+	position:relative;
+	display:block;
+	
+}
+.cabeceraMenuGeneral{
+	font-size:10.0pt;
+    font-weight:bold;
+    font-style:normal;
+    font-family:"Arial Narrow", sans-serif;
+    mso-number-format:General;
+    vertical-align:bottom;
+    /*border-top:1.0pt solid windowtext;
+    border-right:.5pt solid windowtext;
+    border-bottom:.5pt solid windowtext;
+    border-left:.5pt solid windowtext;*/
+    background:#EDE8D2;
+    text-align: left;
+    height: 25px;
+    position:relative;
+    display:block;
+	}
+  
+html,body {
+	margin: 0;
+	padding: 0;
+	font-size:12px;
+	font-family:"Verdana", sans-serif;
+}
+html,select {
+	padding: 0px;
+	background-color: #FFF;
+	color: #333333;
+	font-size:12px;
+	font-family: Verdana,Sans-serif;
+	margin-top: 0px;
+}
+
+html,radio{
+	padding: 0px;
+	background-color: #ffffff;
+	color:#333;
+	font-size:12px;
+	font-family:Verdana,Sans-serif;
+}
+label{
+	padding: 0px;
+	color:#333;
+	font-size:12px;
+	font-family:Verdana,Sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
+input {
+	font-size:12px;
+	font-family: Verdana,Sans-serif;
+}
+
+input[type=submit] {
+	background-color: #005cb9;
+	font-weight: bold;
+	cursor: pointer;
+	width:160px;
+	height: 30px;
+	color:#EEE;
+}
+
+.boton{
+	width:160px;
+	margin:10px 10px 0 0;
+	border-top:1px solid #666;
+	border-right:1px solid #666;
+	border-left:1px solid #666;
+	border-bottom:1px solid #666;
+	background-color:#dedede;
+	color:#000;
+	cursor:pointer;	
+	vertical-align:top;
+}
+
+#loading-mask {
+position: fixed;
+left:     0;
+top:      0;
+width:    100%;
+height:   100%;
+z-index:  20000;
+background-color: #DDEEFF;
+filter:alpha(opacity=50);
+opacity:0.5;
+
+}
+
+#loading {
+position: fixed;
+left:     50%;
+top:      50%;
+padding:  2px;
+z-index:  20001;
+height:   auto;
+margin:   -35px 0 0 -30px;
+}
+ 
+#loading .loading-indicator {
+background: url(../images/loading.gif) no-repeat;
+color:      #555;
+font:       bold 13px tahoma,arial,helvetica;
+padding:    8px 42px;
+margin:     0;
+text-align: center;
+height:     auto;
+}
+
+div.error, div.message {
+    background: #ffffcc;
+    border: 1px solid #000;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: left;
+    vertical-align: bottom;
+    width: 650px;
+}
+
+/* use a different color for the errors */
+div.error {
+    border: 2px solid red;
+}
+
+div.message img.icon {
+    vertical-align: bottom;
+}
+
+span.fieldError, .errorMessage {
+    color: red;
+    font-size: .95em;
+    font-weight: bold;
+    display: block;
+}
+
+div.errorLogin {
+    background: #ffdddd;
+    border: 2px solid red;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 10px auto;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.titulo1{
+	font-family: ArvoBold;
+	font-size: 22px;
+	font-weight:bold;
+	font-style:normal;
+	color: #009fe8;
+}
+
+.msjCuerpoVerdanaBold{
+	font-family: Verdana,Sans-serif;
+	font-size: 14px;
+	font-weight:bold;
+	color: #333;
+}
+
+.msjCuerpoVerdana{
+	font-family: Verdana,Sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+.msjCuerpo{
+	font-family: Merriweather, Georgia, serif;
+	font-size: 15px;
+	color: #444;
+}
+
+msjCuerpoBL{
+	font-family: Merriweather, Georgia, serif;
+	font-size: 20px;
+	color: #444;
+}
+
+.divCuerpoBL{
+	margin-top: -140px;
+}
+
+.footerBBVA{
+	font-family: ArvoBold;
+	font-size: 20px;
+	font-weight:bold;
+	font-style:normal;
+	color: #204377;
+	margin-left: 170px;
+}
+
+.cabeceraBBVA{
+	font-family: ArvoBold;
+	font-weight:bold;
+	font-style:normal;
+	color: #005ebd;
+	margin-left: 0px;
+	font-size: 26px;
+	height: 69px;
+}
+
+.obligatorio{
+	font-family: ArvoBold;
+	font-size: 12px;
+	font-weight:bold;
+	font-style:normal;
+	color: #009fe8;
+}
+
+/*color: #204377;*/

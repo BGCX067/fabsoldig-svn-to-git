@@ -1,0 +1,106 @@
+/*
+ Theme Name:   Cara Child
+ Theme URI:    http://genbutheme.com/themes/cara/
+ Description:  Cara Child Theme
+ Author:       Tektonlabs
+ Author URI:   http://example.com
+ Template:     cara
+ Version:      1.0.0
+ Tags:        one-column, responsive-layout, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
+*/
+
+/*****************************************
+ * TABLE OF CONTENTS:
+ * 
+ * #01 - RESET
+ * #02 - ELEMENTS
+ * #03 - IMAGES & MEDIA
+ * #04 - CONTAINER
+ * #05 - HEADER
+ * #06 - MENUS & SIDEBAR
+ * #07 - MAIN
+ * #08 - CONTENT
+ * #09 - LOOP META
+ * #10 - ENTRY
+ * #11 - LOOP NAV
+ * #12 - COMMENTS
+ * #13 - LOOP PAGINATION
+ * #14 - WIDGETS
+ * #15 - FOOTER
+ * #16 - POST FORMATS
+ * 
+ *****************************************/
+
+body.wordpress{
+	background: url("../img/fondo.png");
+	width: 100%;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+#rainbow{
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 90;
+	height: 5px;
+}
+
+#menu-primary {
+	background: white;
+	border: none;
+	margin-bottom: 0;
+	padding-top: 9px;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+.menu-item-17{
+	background-color: rgb(108, 94, 94);
+}
+
+.menu-item-24{
+	padding-right: 45px;
+	font-size: bold;
+}
+
+#menu-primary li:hover,
+		#menu-primary li:focus{
+			background-color: #221E1E;
+		}
+
+.selected:hover {
+  background-color: #221E1E;
+}
+
+
+.popmake-25{
+right: 26px;
+top: 6px;
+}
+
+#linkreglamento{
+	z-index: 999999999 !important;
+	position: fixed;
+	font-family: StagSansBook;
+	font-size: 10px;
+	color: #009fe8;
+	right: 10px;
+	bottom: 0;
+	background: #f1f1f1;
+	padding: 1px 7px 0px 7px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#linkreglamento > a > span{
+	color: #009fe8;
+}
+
+#linkreglamento > a > span:hover{
+	text-decoration: inherit;
+}
+
+#menu-primary li:hover{
+	background: none;
+}

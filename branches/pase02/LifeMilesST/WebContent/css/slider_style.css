@@ -1,0 +1,347 @@
+@font-face {
+  font-family: 'stag_sansmedium';
+  src: url('../font/stagsans-medium_0-webfont.eot');
+  src: url('../font/stagsans-medium_0-webfont.eot?#iefix') format('embedded-opentype'),url('../font/stagsans-medium_0-webfont.woff') format('woff'),url('../font/stagsans-medium_0-webfont.ttf') format('truetype'),url('../font/stagsans-medium_0-webfont.svg#stag_sansmedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, html, a, button{
+	margin:0;
+  padding:0;
+  text-align: center;
+  outline: none;
+  font-family: 'stag_sansmedium', Arial;
+}
+
+h1{
+
+  font-size: 24px;
+  color: #50ace4;
+  text-align: center;
+}
+h2{
+
+  font-size: 18px;
+  color: #50ace4;
+  font-weight: normal;
+  text-align: center;  
+}
+/**index.html*****************************************************/
+.wrapper{
+  width: 500px;
+}
+
+.text{
+  padding: 44px 0 41px 0;
+}
+
+img{
+  margin: 0 auto;
+}
+
+.buttons{
+  width: 449px;
+  margin: 0 auto;
+}
+
+.buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.buttons a{
+  display: block;
+}
+
+.btn{
+  width: 216px;
+  height: 147px;
+  text-indent: -9999px;
+  float: left;
+}
+
+.btn-credito{
+  background: url('../img/btn-credito.jpg') no-repeat;
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.btn-debito{
+  background: url('../img/btn-debito.jpg') no-repeat;
+  margin-bottom: 20px;
+}
+
+.btn-prepago{
+  background: url('../img/btn-prepago.jpg') no-repeat;
+  margin-right: 15px;
+}
+
+.btn-puntos{
+  background: url('../img/btn-puntos.jpg') no-repeat;
+}
+
+.message{
+  padding: 37px 0 7px 0;
+}
+
+.btn-descarga{
+  background:url('../img/btn-descarga.jpg') no-repeat;
+  height: 57px;
+  width: 449px;
+}
+
+.btn-conoce{
+  background:url('../img/btn-conoce.jpg') no-repeat;
+  height: 57px;
+  width: 449px;
+}
+
+.footer{
+  padding-top: 50px;
+}
+/* -------terminos------------------------------------------ */
+.terminos{
+  padding: 21px 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  color: #7c7c80;
+  text-align: justify;
+  position: absolute;
+  line-height: 10px;
+  /*width: 380px;*/
+}
+
+.terminos span{
+  color: #004c93;
+}
+.overlay{
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-color:#999;
+  opacity: 0.7;
+  display:none;
+}
+
+.overlayTerminos #cboxOverlay{
+  background-color:#333 !important;
+}
+
+.overlayTerminos #cboxClose{
+  right: 5px !important;
+}
+
+
+/*----------------------------------------------------*/
+.form{
+  position: absolute;
+  width: 420px;
+  text-align: left;
+  /* left: 58px; */
+  /* left: 48px; */
+}
+
+.form input[type='text'], .form select{
+  /* width: 373px; */
+  width: 100%;
+  height: 24px;
+  border-radius: 4px;
+  border: 1px solid #d5e1e8;
+  background-color: #f5f5f5;
+  font-size: 13px;
+  color: #50ace4;
+  margin-bottom: 6px;
+  padding: 5px 5px;
+  line-height: 24px;
+} 
+.form select{
+  height: 37px;
+  padding: 0;
+  width: 432px;
+}
+
+.form .year,
+.form .month,
+.form .day{
+  width: 21%;
+}
+
+.form input[type='text'].small{
+  width: 169px;
+  float: right;
+  padding: 0 5px;
+}
+.left{
+  width: 140px;
+  float: left;
+  display: inline-block;
+}
+
+.lnk, label{
+  font-size: 10px;
+  color: #0c6ec5;
+  font-family: Arial;
+
+}
+
+.form .btn-enviar{
+width: 200px;
+border: 0;
+cursor: pointer;
+margin: 23px auto 0 auto;
+display: inherit;
+padding: 14px 20px 14px 20px;
+font-size: 16px;
+background-color: #1760a2!important;
+color: #fff;
+box-shadow: 1px 1px 2px #666;
+border-radius: 5px;
+}
+
+label.error{
+  position: absolute;
+  left: -1000px;
+  top: -1000px;
+}
+
+input[type=checkbox].error{
+  outline: 1px solid #F00;
+}
+
+.form .error{
+  border-color: #fe3433 !important;
+}
+#tyc{
+  vertical-align: middle;
+}
+
+.gracias{
+  padding: 30px 0;
+  text-align: center;
+  color: #50ace4;
+  font-size: 18px;
+  display: none;
+
+}
+
+label.fecha{
+  font-size: 13px;
+  padding-right: 22px;
+}
+
+.nombre{
+  text-transform: capitalize;
+}
+
+.procesando{
+  display: block;
+  float: right;
+  clear: right;
+  padding-right: 40%;
+  color: #f00;
+  display: none;
+}
+
+#numero-doc label.error{
+
+  position: relative!important;
+  left: 0!important;
+  top: 0!important;
+  padding-bottom: 5px;
+  color: #f00!important;
+}
+
+::-webkit-input-placeholder { color:#0c6ec5; }
+::-moz-placeholder { color:#0c6ec5;  } /* firefox 19+ */
+:-ms-input-placeholder { color:#0c6ec5; } /* ie */
+input:-moz-placeholder { color:#0c6ec5; }
+
+/****modal conoce beneficios***********************************************************/
+
+#beneficios{
+  width: 404px;
+  height: 620px;
+  background:#fff url('../img/fondo-video.gif') no-repeat top left;
+  margin: 25px;
+}
+
+.video{
+  position: absolute;
+  bottom: 24px;
+  left: 26px;
+}
+
+/****modal puntos vida***********************************************************/
+
+#puntosvida{
+  width: 404px;
+  height: 620px;
+  background:#fff url('../img/fondo-puntos.gif') no-repeat top center;
+  margin: 25px 18px;
+}
+
+#puntosvida .terminos{
+  bottom:-8px;
+  font-size: 8px;
+}
+
+/****modal prepago***********************************************************/
+
+#prepago{
+  width: 437px;
+  height: 1100px;
+  background:#fff url('../img/fondo-prepago.gif') no-repeat top center;
+  margin: 0 auto;
+  position: relative;
+}
+#prepago .terminos{
+  bottom:30px;
+}
+#prepago .form{
+  top: 625px;
+}
+
+/****modal debito***********************************************************/
+
+#debito{
+  width: 437px;
+  height: 1039px;
+  background:#fff url('../img/fondo-debito.gif') no-repeat top center;
+  margin: 0 auto;
+  position: relative;
+}
+#debito .terminos{
+  bottom:30px;
+  display: none;
+}
+#debito .form{
+  top: 598px;
+}
+
+/****modal credito***********************************************************/
+
+#credito{
+  width: 437px;
+  /*height: 1182px;*/
+  /*background:#fff url('../img/fondo-credito.gif') no-repeat top center;*/
+  margin: 0 auto;
+  position: relative;
+}
+#credito .terminos{
+  bottom:30px;
+  display: none;
+}
+#credito .form{
+  top: 106px;
+}
+
+/****cierre**************************************************************/
+
+.fin-campania{
+  padding-top: 300px;
+  font:normal 13px 'Arial';
+  color: #094fa4;
+}
+

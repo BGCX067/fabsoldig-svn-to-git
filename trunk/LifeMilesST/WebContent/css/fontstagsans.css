@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "StagSansBook";
+	src: url("../fonts/stag-fuente3/StagSans-Book/stagsans-book.eot");
+	src: url("../fonts/stag-fuente3/StagSans-Book/stagsans-book.eot#iefix") format("embedded-opentype"),
+	url("../fonts/stag-fuente3/StagSans-Book/stagsans-book.woff") format("woff"),
+	url("../fonts/stag-fuente3/StagSans-Book/stagsans-book.ttf") format("truetype"),
+	url("../fonts/stag-fuente3/StagSans-Book/stagsans-book.svg") format("svg");
+}
+
+@font-face {
+	font-family: "StagSansLight";
+	src: url("../fonts/stag-fuente3/StagSans-Light/stagsans-light.eot");
+	src: url("../fonts/stag-fuente3/StagSans-Light/stagsans-light.eot#iefix") format("embedded-opentype"),
+	url("../fonts/stag-fuente3/StagSans-Light/stagsans-light.woff") format("woff"),
+	url("../fonts/stag-fuente3/StagSans-Light/stagsans-light.ttf") format("truetype"),
+	url("../fonts/stag-fuente3/StagSans-Light/stagsans-light.svg") format("svg");
+}
+
+@font-face {
+	font-family: "StagSansThin";
+	src: url("../fonts/stag-fuente3/StagSans-Thin/stagsans-thin.eot");
+	src: url("../fonts/stag-fuente3/StagSans-Thin/stagsans-thin.eot#iefix") format("embedded-opentype"),
+	url("../fonts/stag-fuente3/StagSans-Thin/stagsans-thin.woff") format("woff"),
+	url("../fonts/stag-fuente3/StagSans-Thin/stagsans-thin.ttf") format("truetype"),
+	url("../fonts/stag-fuente3/StagSans-Thin/stagsans-thin.svg") format("svg");
+}
+
+
+
+

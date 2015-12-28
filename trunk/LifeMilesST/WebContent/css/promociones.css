@@ -1,0 +1,251 @@
+
+#promociones_list > div > a > div{
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#promociones_list > div:first-child{
+	width: 64.66666667%;
+	background-image: url("../../../uploads/2015/01/banner_grande.png");
+	background-size: 100% 100%;
+}
+
+#promociones_list > div{
+	background-image: url("../../../uploads/2015/01/banner_grande.png");
+	background-size: 100% 100%;
+	padding: 10px;
+	padding-bottom: 28px;
+	height: 218px;
+	margin-right: 2%;
+	width: 31.333333%;
+
+}
+#subtitle_promocion_general{
+	color: #2F7D7C;
+	font-family: drawing;
+	font-size: 20px;
+	text-align: center;
+	width: 208px;
+}
+#container_promociones{
+	padding-right: 55px;
+	padding-left: 55px;
+	font-family: ArvoBold;
+	color: #ffffff;
+}
+
+.post_title_promocion{
+	color: #ffffff;
+	text-align: center;
+}
+
+#promociones_list > div:first-child > a > div > div.post_title_promocion{
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.link_post_promocion{
+	color: #b1eeff;
+	text-decoration: none;
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+.link_detalle{
+	text-decoration: none !important;
+}
+
+#promociones_list > div:first-child > a > div >div.contenido_promo{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.millas{
+	font-size: 12px;
+}
+
+#promociones_list > div:first-child > a > div >div.contenido_promo > div > div.precio_sol{
+	color: #ffffff;
+	margin-left: 10px;
+	border-left: 1px solid;
+	padding-left: 10px;
+	font-size: 20px;
+	height: 39px;
+	padding-top: 19px;
+	margin-top: 3px;
+	width: auto;
+}
+#promociones_list > div:first-child > a > div >div.contenido_promo > div > div > span.precio_dolar{
+	font-size: 20px;
+}
+.precio_sol{
+	color: #ffffff;
+	border-left: 1px solid;
+	font-size: 20px;
+	height: 39px;
+	padding-top: 19px;
+	margin-top: 3px;
+	text-align: left;
+}
+.precio_dolar{
+	font-size: 20px;
+}
+#promociones_list > div:first-child > a > div >div.contenido_promo > div > div.millas_dolar{
+	width: auto;
+	padding-right: 0px;
+}
+#promociones_list > div:first-child > a > div >div.contenido_promo > div.texto_adicional{
+	padding-left: 77px;
+	color: #b1eeff;
+	font-size: 11px;
+	text-align: left;
+}
+.millas_dolar{
+	color: #ffffff;
+	text-align: right;
+}
+.btn_me_interesa{
+	padding-left: 30%;
+	padding-right: 30%;
+	text-align: center;
+}
+.btn_me_interesa > img{
+	display: initial !important;
+}
+.texto_adicional{
+	text-align: center;
+	color: #b1eeff;
+	font-size: 11px;
+}
+
+#promociones_list > div:first-child > a > div >div.contenido_promo > div.btn_me_interesa{
+	margin-left: 4.5%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.subtitle_promocion{
+	margin-bottom: 0;
+	color: #204377;
+}
+
+#title_promocion{
+	text-align: center;
+	color: #204377;
+	font-size: 25px;
+}
+#content_promocion_general{
+	text-align: center;
+	color: #204377;
+	font-family: Arvo;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+}
+#content_promocion_general > div > p{
+margin-bottom: 0;
+}
+
+@media only screen  and (max-width: 767px) {
+
+	#promociones_list > div:first-child{
+		width: 100%;
+	}
+
+	#promociones_list > div{
+		width: 100%;
+	}
+
+	#promociones_list > div:first-child > a > div >div.contenido_promo{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#promociones_list > div > a > div >div.contenido_promo{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+	#promociones_list > div:first-child > a > div >div.contenido_promo > div > div.millas_dolar{
+		color: #ffffff;
+		text-align: right;	
+		width: 50%;
+		padding-right: 15px;
+	}
+	#promociones_list > div:first-child > a > div >div.contenido_promo > div.btn_me_interesa{
+		padding-left: 30%;
+		padding-right: 30%;
+		margin-left: -15px;
+	}
+	#promociones_list > div:first-child > a > div >div.contenido_promo > div.btn_me_interesa > img{
+		display: initial !important;
+	}
+	#promociones_list > div:first-child > a > div >div.contenido_promo > div > div.precio_sol{
+		color: #ffffff;
+		border-left: 1px solid;
+		font-size: 20px;
+		height: 39px;
+		padding-top: 19px;
+		margin-top: 3px;
+		text-align: left;
+		margin-left: 0;
+		padding-left: 15px;
+		width: 50%;
+	}
+	#promociones_list > div:first-child > a > div > div.post_title_promocion{
+		color: #ffffff;
+		text-align: center;
+	}
+	#promociones_list > div:first-child > a > div >div.contenido_promo > div.texto_adicional{
+		text-align: center;
+		padding-left: 0;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+	.container {
+		width: 815px;
+	}
+	.link_post_promocion {
+		font-size: 16px;
+	}
+	.precio_dolar{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+
+	.link_post_promocion {
+		font-size: 16px;
+	}
+
+	#promociones_list > div:first-child > a > div >div.contenido_promo > div > div > span.precio_dolar {
+		font-size: 16px;
+	}
+
+	.precio_dolar{
+		font-size: 16px;
+	}
+
+}
+
+@media only screen and (min-width: 764px){
+
+	#content_promocion_general {
+		width: 590px;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 821px){
+	#container_promociones {
+		padding-right: 5px;
+		padding-left: 22px;
+	}
+	.container {
+		width: 745px;
+	}
+}

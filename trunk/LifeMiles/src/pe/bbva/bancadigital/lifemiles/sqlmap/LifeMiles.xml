@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="LifeMiles">
+
+	<select id="getOfferByCustomer" parameterClass="map" resultClass="java.util.HashMap">
+		SELECT
+		CORRELATIVO,
+		TIP_DOCUMENTO,
+		NUM_DOCUMENTO,
+		NOMBRES,
+		APE_PATERNO,
+		APE_MATERNO,
+		TO_CHAR(TIP_CLIENTE) AS TIP_CLIENTE,
+		TARJ_OFRECIDA,
+		USU_CREACION,
+		FEC_CREACION
+		FROM LIFEML.OFERTA_APROBADA
+		WHERE TIP_DOCUMENTO = #tipoDocumento#
+		AND NUM_DOCUMENTO = #numeroDocumento#
+	</select>
+	
+	<insert id="addInterestedCustomer" parameterClass="map">
+		INSERT INTO LIFEML.INSCRITO (
+			CORRELATIVO, TIP_DOCUMENTO, NUM_DOCUMENTO, NOMBRES, APE_PATERNO, 
+			OPERADOR, TELEFONO, CORREO, DEPARTAMENTO, PROVINCIA, 
+			FLG_PDP, TIP_CLIENTE, USU_CREACION
+		)
+		VALUES (
+			LIFEML.SEQ_INSCRITO.NEXTVAL, #tipoDocumento#, #numeroDocumento#, #nombres:VARCHAR:NULL#, #apellidoPaterno:VARCHAR:NULL#, 
+			#operador#, #telefono#, #correo#, #departamento#, #provincia#, 
+			#flagDatosPersonales#, #tipoCliente#, 'LIFE_MILES')
+	</insert>
+	
+	<select id="existCustomerInCampaing" parameterClass="map" resultClass="java.util.HashMap">
+		SELECT COUNT(1) as NUM_CLIENTES
+		FROM LIFEML.INSCRITO 
+		WHERE TIP_DOCUMENTO = #tipoDocumento#
+		AND NUM_DOCUMENTO = #numeroDocumento#
+	</select>
+	
+	<select id="getAllDepartamentos" resultClass="java.util.HashMap">
+		SELECT DISTINCT COD_DPTO, NOM_DPTO
+		FROM LIFEML.UBIGEO
+		ORDER BY 2
+	</select>
+	
+	<select id="getProvinciasByDpto" parameterClass="string" resultClass="java.util.HashMap">
+		SELECT COD_PROV, NOM_PROV
+		FROM LIFEML.UBIGEO
+		WHERE COD_DPTO = #value#
+	</select>
+	
+	<select id="getPersonByDNI" parameterClass="string" resultClass="java.util.HashMap">
+		SELECT C1 NUM_DOCUMENTO, C2 APE_PATERNO, C3 APE_MATERNO, C4 NOMBRES, C5 SEXO, C6 FEC_NACIMIENTO
+		FROM LIFEML.ID_DATA
+		WHERE C1 = #value#
+	</select>
+		
+	<select id="getInscritoByDocumento" parameterClass="map" resultClass="java.util.HashMap">	
+		SELECT TIP_DOCUMENTO,
+				NUM_DOCUMENTO,
+				NOMBRES,
+				APE_PATERNO,
+				APE_MATERNO,
+				TELEFONO,
+				CELULAR,
+				CORREO,
+				OPERADOR,
+				DEPARTAMENTO,
+				PROVINCIA,
+				RENTA_MENSUAL,
+				FLG_PDP,
+				FLG_TYC,
+				TIP_CLIENTE
+		FROM LIFEML.INSCRITO
+		WHERE TIP_DOCUMENTO = #tipoDocumento#
+		AND NUM_DOCUMENTO = #numeroDocumento#
+		ORDER BY FEC_CREACION DESC
+	</select>
+		
+</sqlMap>

@@ -1,0 +1,294 @@
+/* CANALES DE ATENCION*/
+
+div.sizefont > p {
+	font-family: Arvo;
+	font-size: 15.5px;
+	color: #5bddff;
+}
+
+div.sizefont > p > strong{
+	font-family: Arvo;
+	font-size: 21px;
+	color: #5bddff;
+	float: left;
+}
+
+div.contentcanal > p > a{
+	color: #005ebd;
+	font-family: ArvoBold;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.fixcanatencion{
+	background-color: white;
+	padding-top: 25px;
+}
+
+.positionbox{
+	background-color: white;
+	margin-bottom: 20px;
+	margin-left: 6%;
+}
+
+.imageareacanal{
+	float: left;
+	width: 75px;
+}
+
+
+.contenidocanales{
+	float: left;
+	width: 320px;
+}
+
+.contentcanal{
+	text-align: center;
+	font-family: Arvo;
+	font-size: 11px;
+	color: #484848;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.nopadding{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.resizeimg {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+
+
+@media only screen and (min-width: 299px) and (max-width: 320px) {
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 0;
+	}
+
+	.nopadding{
+		width: 100%;
+	}	
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 350px) {
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+		div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 8%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 351px) and (max-width: 390px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 12%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 391px) and (max-width: 430px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 19%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 431px) and (max-width: 460px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 22%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 461px) and (max-width: 490px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 23%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 491px) and (max-width: 520px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 25%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 521px) and (max-width: 550px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 29%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 551px) and (max-width: 565px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		margin-bottom: 12px;
+		margin-left: 29%;
+	}
+
+	.nopadding{
+		width: 100%;
+	}
+
+}
+
+
+@media only screen and (min-width: 566px) and (max-width: 700px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		font-size: 19px;
+		padding-left: 6px;
+		float: none;
+	}
+
+}
+
+@media only screen and (min-width: 701px) and (max-width: 991px) {
+
+
+	.positionbox{
+		margin-left: 0px;
+		text-align: center;
+	}
+
+	div.sizefont > p > strong{
+		font-size: 19px;
+		padding-left: 6px;
+		float: none;
+	}
+
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1259px) {
+
+
+	.sizefont{
+		position: relative;
+		top: 0;
+	}
+
+	div.resizeimg > img{
+		max-width: none;
+	}
+
+	.resizeimg {
+		width: 24.333333%;
+		position: relative;
+		padding-left: 0;
+	}
+
+	.positionbox {
+		margin-left: 8%;
+	}
+
+	.contentcanal{
+		width: 66.333333%;
+	}
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 1.0//EN" "dwr10.dtd">
+<dwr>
+  <allow>
+    <create creator="new" javascript="JDate">
+      <param name="class" value="java.util.Date"/>
+    </create>
+    
+    <create creator="new" javascript="CampaingAction">
+      <param name="class" value="pe.bbva.bancadigital.lifemiles.action.CampaingAction"/>
+    </create>
+    
+    <create creator="new" javascript="ParametroService">
+      <param name="class" value="pe.bbva.bancadigital.lifemiles.service.ParametroServiceImpl"/>
+    </create>
+    
+    
+	<!-- Definición de Beans -->
+  	
+  	<convert converter="bean" match="pe.bbva.bancadigital.lifemiles.domain.Campaing"/>
+  </allow>
+</dwr>
